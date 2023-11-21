@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px; /* Adjust the width as needed */
+}
+
+.task-container {
+    margin-top: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 8px;
+    border-radius: 4px;
+}
+
+.task span {
+    flex-grow: 1;
+}
+
+.task input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.task button {
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.task button.edit {
+    background-color: #2196f3;
+    margin-right: 5px; /* Add some spacing between the buttons */
+}
+
+.task button.delete {
+    margin-left: 5px; /* Add some spacing between the buttons */
+    background-color: #ff5555;
+}
+
+.task button:hover {
+    opacity: 0.8;
+}
